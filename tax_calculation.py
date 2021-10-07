@@ -26,7 +26,7 @@ import math
 
 
 RESIDENT_TAX_RATIO = 0.1
-BASIC_DEDUCTION = 480000
+# BASIC_DEDUCTION =
 
 def calculate_income_tax_ratio(profit):
     if profit <= 1950000:
@@ -199,33 +199,11 @@ class Financial_Situation():
                     continue
 
 
-"""
-売り上げ1 = 7654364
-売り上げ2 = 7555004
-売り上げ3 = 7154320
+# REVENUE = 
+# EXPENSES = 
 
-経費1 = 864231
-経費2 = 1457231
+# financial_situation_1_in_2021 = Financial_Situation(REVENUE, EXPENSES)
 
+# print(financial_situation_1_in_2021.show_all_information())
 
-"""
-
-financial_situation_1_in_2021 = Financial_Situation(7654364, 864231)
-
-financial_situation_2_in_2021 = Financial_Situation(7654364, 1457231)
-
-financial_situation_3_in_2021 = Financial_Situation(7154320, 864231)
-
-financial_situation_4_in_2021 = Financial_Situation(7154320, 1457231)
-
-
-print("##########################################")
-print(financial_situation_1_in_2021.show_all_information())
-print("##########################################")
-print(financial_situation_2_in_2021.show_all_information())
-print("##########################################")
-print(financial_situation_3_in_2021.show_all_information())
-print("##########################################")
-print(financial_situation_4_in_2021.show_all_information())
-print("##########################################")
 
